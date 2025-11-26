@@ -5,9 +5,8 @@ int main() {
     printf("Enter size of array : ");
     scanf("%d", &n);
 
-    printf("\n");
     for(int i = 0; i < n; i++) {
-        printf("Enter element-%d : ", (i+1));
+        printf("Enter element %d: ", i + 1);
         scanf("%d", &arr[i]);
     }
 
@@ -17,17 +16,13 @@ int main() {
     }
 
     int k;
-    printf("Enter an element to enter at the beginning : ");
+    printf("Enter an element to enter at the end : ");
     scanf("%d", &k);
 
-    for(int i=n; i>0; i--) {
-        arr[i]=arr[i-1];
-    }
-
-    arr[0]=k;
+    arr[n]=k;
     n++;
 
-    printf("\nArray after inserting element at the beginning : \n");
+    printf("\nArray after inserting element at the end : \n");
     for(int i=0; i<n; i++) {
         printf("%d, ", arr[i]);
     }
