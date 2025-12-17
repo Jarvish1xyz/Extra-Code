@@ -1,0 +1,3 @@
+Write a program to count even and odd numbers in an array.
+Write a program to rotate an array by K positions.
+Write a program to find an uniqe element.
