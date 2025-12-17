@@ -1,3 +1,4 @@
 Write a program to count even and odd numbers in an array.
-Write a program to rotate an array by K positions.
+Write a program to find the element that appears only once when all other elements appear twice (use XOR).
 Write a program to find an uniqe element.
+Write a program to reverse an array witout any extra varible.	
