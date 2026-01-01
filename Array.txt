@@ -1,0 +1,9 @@
+Write a program to count even and odd numbers in an array.
+Write a program to find the element that appears only once when all other elements appear twice (use XOR).
+Write a program to find an uniqe element.
+Write a program to reverse an array witout any extra varible.	
+ remove all occurrences of value and return num of element which is left
+2. check given array is palindrome or not
+3. sort array in decs 
+4. move all zero to end
+5. Replace Array with Running Sum
