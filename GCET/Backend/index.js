@@ -18,7 +18,6 @@ mongoose.connect(url).then(() => {
     console.log(err);
 });
 
-
 app.get('/list', async (req, res) => {
     try {
         const users = await User.find();
