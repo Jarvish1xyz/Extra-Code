@@ -100,63 +100,10 @@
 
 // int main() {
     
-
-//     while(1) {
-//         int n;
-//         printf("Enter the value : ");
-//         scanf("%d", &n);
-//         if(n!=-1) {
-//             insertAtLast(n);
-//         }
-//         else {
-//             break;
-//         }
-//     }
-//     display();
-
-//     int c;
-//     printf("Enter a choice : \n");
-//     printf("1. Insert a node at the front of the linked list.\n");
-//     printf("2. Display all nodes.\n");
-//     printf("3. Delete a first node of the linked list.\n");
-//     printf("4. Insert a node at the end of the linked list.\n");
-//     printf("5. Delete a last node of the linked list.\n");
-//     printf("6. Delete a node from specified position.\n");
-//     printf("7. count the number of nodes\n");
-//     scanf("%d", &c);
-
-//     switch(c) {
-//         case 1:
-//             int t;
-//             printf("Enter the values : ");
-//             scanf("%d", &t);
-//             insertAtFirst(t);
-//         break;
-//         case 2:
-//             display();
-//         break;
-//         case 3:
-//             deleteFirst();
-//         break;
-//         case 4:
-//             int l;
-//             printf("Enter the values : ");
-//             scanf("%d", &l);
-//             insertAtLast(l);
-//         break;
-//         case 5:
-//             deleteLast();
-//         break;
-//         case 6:
-//             int pos;
-//             printf("Enter the position of node : ");
-//             scanf("%d", &pos);
-//             deleteSpecific(pos);
-//         break;
-//         case 7:
-//             countNodes();
-//         break;
-//     }
+//     insertAtFirst(10);
+//     insertAtFirst(10);
+//     insertAtFirst(10);
+    
 //     display();
     
 //     return 0;
